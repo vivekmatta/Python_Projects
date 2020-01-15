@@ -10,7 +10,7 @@ def jprint(obj):
     print(text)
 
 
-r = requests.get('https://api.fortnitetracker.com/v1/store', headers={'TRN-Api-Key': '0946c1e7-cd3d-4dd9-b294-54d2ff7885d1'})
+r = requests.get('https://api.fortnitetracker.com/v1/store', headers={'TRN-Api-Key': 'API-KEY-HERE'})
 
 # pprint.pprint(r.status_code)
 # jprint(r.json())
