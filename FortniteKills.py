@@ -14,7 +14,7 @@ type = input()
 print("What is your Username: ")
 name = input()
 
-r = requests.get('https://api.fortnitetracker.com/v1/profile/' + type + '/' + name, headers={'TRN-Api-Key': '0946c1e7-cd3d-4dd9-b294-54d2ff7885d1'})
+r = requests.get('https://api.fortnitetracker.com/v1/profile/' + type + '/' + name, headers={'TRN-Api-Key': 'API-KEY-HERE'})
 
 # pprint.pprint(r.status_code)
 # jprint(r.json())
